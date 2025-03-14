@@ -16,9 +16,9 @@ Open Calculator
 
 I click addition 
     sleep    3
-    Click Element    id=com.google.android.calculator:id/ ${keys}
+    Click Element    id=com.google.android.calculator:id/digit_9 
     Click Element    id=com.google.android.calculator:id/op_add	
-    Click Element    id=com.google.android.calculator:id/ ${keys}
+    Click Element    id=com.google.android.calculator:id/digit_1
     
 
 
